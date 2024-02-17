@@ -1,1 +1,1 @@
-# portfolio-starter
+# El portafolio aun se enceuntra en procesode mejoras y añadir nuevos detalles.
