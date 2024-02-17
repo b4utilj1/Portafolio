@@ -8,10 +8,10 @@ const Header = () => {
     <div className='container mx-auto'>
       <div className='flex justify-between items-center'>
         <a href='#'>
-          <img src={Logo}  /> 
+          {/* <img src={Logo}  />  */}
         </a>
 
-        <button className='btn btn-sm'>Trabajar conmigo</button>
+        <button className='btn btn-sm'>Contactarme</button>
       </div>
     </div>
     </header>;
