@@ -1,1 +1,2 @@
-# El portafolio aun se enceuntra en procesode mejoras y añadir nuevos detalles.
+# El portafolio aun se enceuntra en proceso de mejoras y añadir nuevos detalles.
+# con el tiempo seguire añadiendo cosas nuevas

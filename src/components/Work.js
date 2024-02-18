@@ -11,7 +11,11 @@ const Work = () => {
   return <section id='work' className='section'>
   <div className='container mx-auto'>
         <div className='flex  flex-col lg:flex-row gap-x-10'>
-          <div className='flex-1 flex flex-col gap-y-6 mb-10 lg:mb-0'>
+          <motion.div 
+          variants={fadeIn('left', 0.5)}
+          initial="hidden" whileInView={'show'}
+          viewport={{once: false, amount: 0.3}} 
+          className='flex-1 flex flex-col gap-y-6 mb-10 lg:mb-0'>
             {/* Text */}
             <div>
               <h2 className='h2 leading-tight text-accent'>Mis Ultimos<br/>Proyectos</h2>
@@ -37,8 +41,12 @@ const Work = () => {
                 <span className='text-3xl text-white '>Titulo de proyectos1</span>
               </div>
             </div>
-          </div>
-          <div className='flex-1 flex flex-col gap-y-20'>
+          </motion.div>
+          <motion.div 
+          variants={fadeIn('left', 0.5)}
+          initial="hidden" whileInView={'show'}
+          viewport={{once: false, amount: 0.3}} 
+          className='flex-1 flex flex-col gap-y-20'>
             {/* Image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               {/* Overlay */}
@@ -72,7 +80,7 @@ const Work = () => {
                 <span className='text-3xl text-white '>Titulo de proyectos</span>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
   </section>;
