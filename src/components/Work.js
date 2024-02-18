@@ -33,12 +33,12 @@ const Work = () => {
               {/* pretitle */}
               <div className='absolute bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className='text-gradient text-3xl'>
-                Diseños1
+                Proyecto 1
                 </span>
                </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50'>
-                <span className='text-3xl text-white '>Titulo de proyectos1</span>
+                <span className='text-3xl text-white '>Simulador de peliculas</span>
               </div>
             </div>
           </motion.div>
@@ -46,38 +46,38 @@ const Work = () => {
           variants={fadeIn('left', 0.5)}
           initial="hidden" whileInView={'show'}
           viewport={{once: false, amount: 0.3}} 
-          className='flex-1 flex flex-col gap-y-20'>
+          className='flex-1 flex flex-col gap-y-3'>
             {/* Image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               {/* Overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
-              <img className='group-hover:scale-125 transition-all duration-500' src={img1} />
+              <img className='group-hover:scale-125 transition-all duration-500' src={img2} />
               {/* pretitle */}
               <div className='absolute bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className= 'text-gradient text-3xl'>
-                Diseños2
+                Proyecto 2
                 </span>
                </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50'>
-                <span className='text-3xl text-white '>Titulo de proyectos</span>
+                <span className='text-3xl text-white '>BlackJack</span>
               </div>
             </div>
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               {/* Overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
-              <img className='group-hover:scale-125 transition-all duration-500' src={img1} />
+              <img className='group-hover:scale-125 transition-all duration-500' src={img3} />
               {/* pretitle */}
               <div className='absolute bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className='text-gradient text-3xl'>
-                Diseños3
+                Proyecto 3
                 </span>
                </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50'>
-                <span className='text-3xl text-white '>Titulo de proyectos</span>
+                <span className='text-3xl text-white '>Todo List</span>
               </div>
             </div>
           </motion.div>
