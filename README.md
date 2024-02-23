@@ -1,2 +1,3 @@
-<<<<<<< 
-# El portafolio aun se enceuntra en proceso de mejoras y añadir nuevos detalles.
+# Aca esta un avance de mi portafolio, hay detalles los cuales vamos a ir mejorando pero aqui una vista de mi portafolio
+
+https://portafolio-react-santiago.netlify.app/
